@@ -21,6 +21,7 @@ class Format extends BaseConfig
 	public $supportedResponseFormats = [
 		'application/json',
 		'application/xml', // machine-readable XML
+        'text/json',
 		'text/xml', // human-readable XML
 	];
 
@@ -37,6 +38,7 @@ class Format extends BaseConfig
 	public $formatters = [
 		'application/json' => \CodeIgniter\Format\JSONFormatter::class,
 		'application/xml'  => \CodeIgniter\Format\XMLFormatter::class,
+        'text/json',
 		'text/xml'         => \CodeIgniter\Format\XMLFormatter::class,
 	];
 
