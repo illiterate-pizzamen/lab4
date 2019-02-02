@@ -23,7 +23,7 @@ class EmployeeController extends Controller {
     public function show($id) {
         $model = new Employee;
         $employee = $model->find($id);
-        return $this->respond($employee, 200, 'student found');
+        return $this->respond($employee, 200, 'employee found');
     }
 
     public function new() {
