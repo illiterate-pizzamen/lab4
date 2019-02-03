@@ -16,7 +16,7 @@ class ClassesController extends Controller {
     }
 
     public function show($id) {
-        $model = new Student;
+        $model = new Classes();
         $class = $model->find($id);
         return $this->respond($class, 200, 'Class found');
     }
