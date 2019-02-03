@@ -25,6 +25,15 @@
         <li><a href="/employees/1">show employee 1</a></li>
 
         <li><a href="/employees/1/edit">edit employee 1</a></li>
+
+        Classes
+        <li><a href="/classes">index</a></li>
+
+        <li><a href="/classes/new">new</a></li>
+
+        <li><a href="/classes/1">show class 1</a></li>
+
+        <li><a href="/classes/1/edit">edit class 1</a></li>
     </ul>
     </body>
 </html>
