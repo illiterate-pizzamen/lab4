@@ -75,6 +75,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->resource('students', ['controller' => 'StudentController']);
 $routes->resource('employees', ['controller' => 'EmployeeController']);
+$routes->resource('classes', ['controller' =>'ClassesController']);
 
 /**
  * --------------------------------------------------------------------
